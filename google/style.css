@@ -1,0 +1,45 @@
+body {
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 1rem 0.5rem 0;
+}
+
+img {
+    aspect-ratio: auto 5 / 2;
+    /* display: block; */
+    /* height: 200px; */
+    /* margin: auto; */
+    /* width: 100%; */
+}
+
+.left-nav-menu {
+    float: left;
+}
+
+.right-nav-menu {
+    float: right;
+}
+
+.sign-in {
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-color: blue;
+    border-radius: 4px;
+    color: white;
+    margin-right: 8px;
+    padding: 9px 23px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
